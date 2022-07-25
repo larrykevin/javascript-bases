@@ -53,17 +53,17 @@ console.log(basquet, tenis, otros);
 //Ejemplo 6 - Cambiando el nombre de las variables con desestructuración
 const usuario = { nombre: "Andres", edad: 23, plataforma: "Platzi" }
 
-const { nombre: name, edad: age, plataforma: platform } = usuario
+const { nombre: name, edad: valueAge, plataforma: platform } = usuario
 
 console.log(name)  // 'Andres' 
-console.log(age)  // 23
+console.log(valueAge)  // 23
 console.log(platform)  // 'Platzi'
 
 console.log(nombre)   // Uncaught ReferenceError: nombre is not defined
 
 
 //Ejemplo 7
-// En este ejemplo el spred operator + la palabra reservada arguments toman todos
+// En este ejemplo el spred operator + la palabra reservada ARGUMENTS toman todos
 // los parametros y los introduce en un arreglo
 
 function favoriteSongs() {
