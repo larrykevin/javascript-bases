@@ -68,7 +68,7 @@ console.log(nombre)   // Uncaught ReferenceError: nombre is not defined
 
 function favoriteSongs() {
   const array = [...arguments];
-  array.map((song,i) => {
+  array.map(( song, i ) => {
     console.log(`${i + 1}. ${song}`);
   });
 }

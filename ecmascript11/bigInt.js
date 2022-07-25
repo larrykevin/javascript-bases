@@ -1,0 +1,3 @@
+const aBigNumber = 900714564654654564654654n;
+
+const anotherBigNumber = BigInt(900714564654654564654654);
